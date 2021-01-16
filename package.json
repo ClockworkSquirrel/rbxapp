@@ -1,6 +1,6 @@
 {
   "name": "rbxapp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Fetches the install locations for the Roblox applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
