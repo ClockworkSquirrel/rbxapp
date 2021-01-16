@@ -25,10 +25,10 @@ jobs:
     - name: Download Studio
       uses: Amadevus/pwsh-script@v2.0.0
       with: 
-        script: (New-Object System.Net.WebClient).DownloadFile("https://setup.rbxcdn.com/RobloxStudioLauncherBeta.exe", "./RobloxStudioLauncherBeta.exe")
+        script: (New-Object System.Net.WebClient).DownloadFile("https://setup.rbxcdn.com/RobloxStudioLauncherBeta.exe", ".\RobloxStudioLauncherBeta.exe")
         
     - name: Install Studio
-      run: RobloxStudioLauncherBeta.exe
+      run: .\RobloxStudioLauncherBeta.exe
           
     - name: Checkout Repository
       uses: actions/checkout@v2
