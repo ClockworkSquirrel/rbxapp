@@ -20,6 +20,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
         architecture:
           - x64
+        
+        include:
+          - DistributionUrl: https://setup.rbxcdn.com/RobloxStudioLauncherBeta.exe
 
     steps:
     - uses: actions/checkout@v2
